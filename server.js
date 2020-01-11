@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 // parse application/json
-app.use(expresss.json());
+app.use(express.json());
 
 // Set Handlebars.
 const exphbs = require("express-handlebars");
